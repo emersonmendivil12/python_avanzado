@@ -171,4 +171,10 @@ cadenas* o un *conjunto de enteros*?
     - dict[str, float] -> diccionario donde las claves son cadenas de
     texto y los valores son flotantes/decimales.
 - **Multiples**
-    - 
+  En el caso que queramos indicar que un determinado parametr puede
+  ser de un 'tipo o de otro' tenesmo que especificarlo usando el
+  operdor '|'
+    - tuple|dict -> puede ser dato de tipo tupla o diccionario
+    - list[srt|int] -> lista cuyos elemntos pueden ser cadena de texto o
+    ineteros
+    - dict[srt|int, float|int] ->
