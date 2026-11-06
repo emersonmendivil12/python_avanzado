@@ -1,13 +1,11 @@
-# crear un programa que me permita mostrar mensajes personalisados,
-#crear una funcion similar ala funcion similar a print de python 
+# crear un programa que me permita mostrar mensajes personalizados, crear un funcion similar a la funcion print de python
 def mi_print(mensaje:str):
     texto=f"""
-------------------------
+--------------------------------------------------
 {mensaje}
-------------------------
+--------------------------------------------------
 """
-
     print(texto)
 
-mi_print("hola como estas es es un nuevo mensaje")
+print(f"este es mi mensaje personalisado")
 mi_print("este es otro texto")
