@@ -147,3 +147,28 @@ def suma(a,b):
 > 2. Especificar y caracteristicas de los parametros incluyendo sus tipos.
 > 3. Restricciones de la funcion.
 > 4. El valor que retorna y sus caracteristicas.
+
+## type-hints (anotaciones de tipo)
+Nos permite indicar que tipo de datos recibira una variable, parametros y el valor que retorna de una funcion.
+Para utilizarlos debemos indicar el tipo de dato despues del separador ':' en el caso del valor de retorno usaremos '->' luego el tipo de dato y finalmente el separador ':' que indica el inicio del bloque de codigo de la funcion.
+Las anotaciones de tipo son una herramienta que nos permite complementar la documentacion de nuestro codigo
+
+**tenemos lo siguiente**
+- **simple**
+    - int -> numeros enteros
+    - float -> numeros decimales
+    - bool -> datos boleanos(verdad o falso)
+    - str -> datos de tipo texto o cadena
+    - list -> listas '[]'
+    - tuple -> tuplas '()'
+    - dict -> diccionarios '{}'
+- **Compuestos**
+existen casos en los que necesitamos mas expresividad en la
+*anotacion de tipos* ¿Que ocurre si queremos indicar una *lista de
+cadenas* o un *conjunto de enteros*?
+    - list[str] -> lista de cadenas de texto
+    - list[int] -> lista de numeros enteros
+    - dict[str, float] -> diccionario donde las claves son cadenas de
+    texto y los valores son flotantes/decimales.
+- **Multiples**
+    - 
